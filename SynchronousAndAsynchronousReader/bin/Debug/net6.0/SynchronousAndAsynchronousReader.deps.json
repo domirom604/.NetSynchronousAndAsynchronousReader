@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SynchronousAndAsynchronousReader/1.0.0": {
+        "runtime": {
+          "SynchronousAndAsynchronousReader.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SynchronousAndAsynchronousReader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
