@@ -14,8 +14,8 @@ class Program
     static void  Main()
     {
         //wykonajPitstopSynchronicznie();
-        wykonajPitstopAsynchronicznie();
-
+        //wykonajPitstopAsynchronicznie();
+        readPagesAsync();
     }
     static void wykonajPitstopSynchronicznie()
     {
@@ -44,5 +44,27 @@ class Program
             pitstopTasks.Remove(finishedTask);
         }
         SynchronousPitstop.stopEnable = false;
+    }
+
+    static async Task readPagesAsync()
+    {
+        var LinkdePagesTasksToRead = new List<Task<string>> {};
+        string URL = "https://dotnetfoundation.org";
+        PagesReader pgRead = new PagesReader();
+        string content = await pgRead.ReadPage(URL);
+
+        pgRead.findAndListAllReferencesLinked(content);
+        Console.WriteLine(content);
+        foreach (var i in pgRead.Pages)
+        {
+            LinkdePagesTasksToRead.Add(pgRead.ReadPage(i));
+        }
+        while (LinkdePagesTasksToRead.Count > 0)
+        {
+            Task<string> finishedTask = await Task.WhenAny(LinkdePagesTasksToRead);
+            Console.WriteLine(finishedTask.Result);
+            LinkdePagesTasksToRead.Remove(finishedTask);
+        }
+        Console.WriteLine(pgRead.Pages.Count());
     }
 }

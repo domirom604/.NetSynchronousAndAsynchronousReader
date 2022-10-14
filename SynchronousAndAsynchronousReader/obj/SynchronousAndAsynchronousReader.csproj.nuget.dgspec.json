@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Users\\dromanow\\source\\repos\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader.csproj": {}
+    "E:\\Users\\dromanow\\source\\repos\\SynchronousAndAsynchronousReader(Lab2)\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader.csproj": {}
   },
   "projects": {
-    "E:\\Users\\dromanow\\source\\repos\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader.csproj": {
+    "E:\\Users\\dromanow\\source\\repos\\SynchronousAndAsynchronousReader(Lab2)\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Users\\dromanow\\source\\repos\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader.csproj",
+        "projectUniqueName": "E:\\Users\\dromanow\\source\\repos\\SynchronousAndAsynchronousReader(Lab2)\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader.csproj",
         "projectName": "SynchronousAndAsynchronousReader",
-        "projectPath": "E:\\Users\\dromanow\\source\\repos\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader.csproj",
+        "projectPath": "E:\\Users\\dromanow\\source\\repos\\SynchronousAndAsynchronousReader(Lab2)\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader.csproj",
         "packagesPath": "C:\\Users\\dromanow\\.nuget\\packages\\",
-        "outputPath": "E:\\Users\\dromanow\\source\\repos\\SynchronousAndAsynchronousReader\\SynchronousAndAsynchronousReader\\obj\\",
+        "outputPath": "E:\\Users\\dromanow\\source\\repos\\SynchronousAndAsynchronousReader(Lab2)\\SynchronousAndAsynchronousReader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
